@@ -29,7 +29,7 @@ lint:
     $(PYLINT) -E german-tournament --disable=no-name-in-module,import-error
 
 test:
-	$(NOSETESTS) -v
+	$(NOSETESTS) -v --with-coverage --cover-package=germantournament
 
 install:
 	$(PIP)  install -r requirements.txt -r requirements-dev.txt
