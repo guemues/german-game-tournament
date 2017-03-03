@@ -159,7 +159,6 @@ logs/
 /configs/application.conf
 /webui/libs/
 /application.conf
-/requirements.txt
 /main.py### Example user template template
 ### Example user template
 
