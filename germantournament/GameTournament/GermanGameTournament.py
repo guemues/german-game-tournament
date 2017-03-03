@@ -9,9 +9,9 @@ class GermanGameTournament(object):
         self._players = []
         self._game_per_player = 2
 
-    def set_players(self, players):
+    def set_player_count(self, player_count):
         """Contain the GermanGameTournament class."""
-        self._players = players
+        self._players = list(range(0, player_count))
 
     def _fix_players(self, player_count_in_one_game):
         """Contain the GermanGameTournament class."""
